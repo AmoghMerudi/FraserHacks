@@ -7,8 +7,6 @@ function setup() {
 
 function draw() {
   background(220);
-  
-  box = new Player(healthCounter, damageCounter, 300, 300, 50, 50);
 
   push();
 
@@ -23,15 +21,4 @@ function draw() {
   rect(0, windowHeight - 150, windowWidth, windowHeight);
   pop();
   
-}
-
-class Player{
-    constructor(health, damage, xPosition, yPosition, width, height){
-        this.health = health;
-        this.damage = damage;
-        this.xPosition = xPosition;
-        this.yPosition = yPosition;
-        this.width = width;
-        this.height = height;
-    }
 }
