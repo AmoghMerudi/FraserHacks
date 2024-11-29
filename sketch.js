@@ -5,7 +5,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
-function drawBackground() {
+function draw() {
   background(220);
 
   push();
@@ -17,11 +17,10 @@ function drawBackground() {
   text2 = text("Made by: 2 browns and 2 yellows", widthWidth / 2, (windowHeight / 2) - 100);
   
   pop();
+
+  push();
+  fill(144, 238, 144);
+  let platform = rect(0, windowHeight - 150, windowWidth, windowHeight);
+  pop();
+  
 }
-
-function drawCharacter() {
-
-  box = new Player(200, 0, 20, windowWidth-20, windowHeight-1000);
-
-}
-
