@@ -8,7 +8,7 @@ function setup() {
 function draw() {
   background(220);
   
-  box = new Player(healthCounter, damageCounter, 20, windowWidth-20, windowHeight-1000);
+  box = new Player(healthCounter, damageCounter, 300, 300, 50, 50);
 
   push();
 
