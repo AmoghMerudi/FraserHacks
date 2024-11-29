@@ -12,9 +12,7 @@ function draw() {
 
   textSize(100);
   textAlign(CENTER);
-  text1 = text("Education", windowWidth/2, windowHeight/2)
-  textSize(25);
-  text2 = text("Made by: 2 browns and 2 yellows", widthWidth / 2, (windowHeight / 2) - 100);
+  text1 = text("Education", windowWidth/2, windowHeight/2);
   
   pop();
 
