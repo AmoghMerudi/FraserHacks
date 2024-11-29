@@ -14,4 +14,10 @@ function draw() {
   education = text("Education", windowWidth/2, windowHeight/2)
   
   pop();
+
+
+
+  fill(35);
+  rect(windowWidth, windowHeight, windowWidth, windowHeight);
+  
 }
