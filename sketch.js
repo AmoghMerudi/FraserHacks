@@ -18,7 +18,7 @@ function draw() {
 
   push();
   fill(144, 238, 144);
-  rect(0, windowHeight - 150, windowWidth, windowHeight);
+  let platform = rect(0, windowHeight - 150, windowWidth, windowHeight);
   pop();
   
 }
