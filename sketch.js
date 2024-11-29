@@ -8,7 +8,7 @@ function setup() {
 function draw() {
   background(220);
   
-  box = rect(200,200, 20, 20);
+  box = new Player(200, 0, 20, windowWidth-20, windowHeight-1000);
 
   push();
 
