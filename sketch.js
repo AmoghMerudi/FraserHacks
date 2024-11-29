@@ -3,6 +3,7 @@ let healthCounter;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  player();
 }
 
 function draw() {
@@ -21,4 +22,8 @@ function draw() {
   let platform = rect(0, windowHeight - 150, windowWidth, windowHeight);
   pop();
   
+}
+
+function player(){
+    let player = rect(0, 0, 50, 50);
 }
