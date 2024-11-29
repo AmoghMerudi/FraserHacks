@@ -8,7 +8,6 @@ function setup() {
 
 function draw() {
   background(220);
-
   push();
 
   textSize(100);
@@ -19,7 +18,7 @@ function draw() {
 
   push();
   fill(144, 238, 144);
-  let platform = rect(0, windowHeight - 150, windowWidth, windowHeight);
+  rect(0, windowHeight - 150, windowWidth, windowHeight);
   pop();
   
 }
