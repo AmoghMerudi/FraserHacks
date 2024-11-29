@@ -18,10 +18,10 @@ function draw() {
   
   pop();
 
-
-
-  fill(0);
-  rect(0, 0, 200, 200);
+  push();
+  fill(144, 238, 144);
+  rect(0, windowHeight - 150, windowWidth, windowHeight);
+  pop();
   
 }
 
