@@ -5,7 +5,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
-function drawBackground() {
+function draw() {
   background(220);
 
   push();
@@ -15,11 +15,10 @@ function drawBackground() {
   education = text("Education", windowWidth/2, windowHeight/2)
   
   pop();
+
+  push();
+  fill(144, 238, 144);
+  rect(0, windowHeight - 150, windowWidth, windowHeight);
+  pop();
+  
 }
-
-function drawCharacter() {
-
-  box = new Player(200, 0, 20, windowWidth-20, windowHeight-1000);
-
-}
-
