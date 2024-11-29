@@ -20,8 +20,20 @@ function draw() {
 
 
 
-  fill(35);
-  rect(windowWidth, windowHeight, windowWidth, windowHeight);
+  fill(0);
+  rect(0, 0, 200, 200);
   
+}
+
+class Player{
+  constructor(health, damage, xPosition, yPosition, width, height){
+      this.health = health;
+      this.damage = damage;
+      this.xPosition = xPosition;
+      this.yPosition = yPosition;
+      this.width = width;
+      this.height = height;
+
+  }
 }
 
