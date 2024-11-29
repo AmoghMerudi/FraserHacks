@@ -9,9 +9,9 @@ function draw() {
 
   push();
 
-  textSize()
-  education = text("Education", windowWidth/2, windowHeight/2)
-  
+  textSize();
+  education = text("Education", windowWidth/2, windowHeight/2);
+
   pop();
 
 }
