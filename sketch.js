@@ -20,7 +20,7 @@ function draw() {
 
   push();
   fill(144, 238, 144);
-  rect(0, windowHeight/1.5, windowWidth, windowHeight);
+  rect(0, windowHeight - 150, windowWidth, windowHeight);
   pop();
   
 }
