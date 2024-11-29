@@ -1,3 +1,6 @@
+let damageCounter;
+let healthCounter;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
@@ -21,3 +24,4 @@ function draw() {
   rect(windowWidth, windowHeight, windowWidth, windowHeight);
   
 }
+
